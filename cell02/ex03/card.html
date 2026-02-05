@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+    }
+
+    .card {
+      width: 300px;
+      margin: 40px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    img.profile {
+      width: 150px;
+      border-radius: 50%;
+    }
+
+    .social img {
+      width: 25px;
+      margin: 5px;
+    }
+
+    .btn {
+      display: block;
+      margin-top: 15px;
+      padding: 10px;
+      background: black;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+
+    <!-- Title -->
+    <h2>My Profile Card</h2>
+
+    <!-- Profile Picture -->
+    <img class="profile" src="https://scontent.fbkk6-1.fna.fbcdn.net/v/t39.30808-6/495019884_2101600406919194_8650801211747733936_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=F3sk3Y0NogEQ7kNvwExZ6GF&_nc_oc=AdmawVL-xe6PQorId-oCzjx7bXD2yg_0MVeVtM9jrv3Cw7AT6k-cAsIYuyUpfJ8-igM&_nc_zt=23&_nc_ht=scontent.fbkk6-1.fna&_nc_gid=VLqTK-3STtfE7ag_zGHdJg&oh=00_AfvgiaSqeJCX75bQ3P542_MO4z1IYtnyQ4OGilYetdG9Cw&oe=69898722" />
+
+    <!-- Invisible Table -->
+    <table width="100%">
+      <tr>
+        <td>
+          <!-- Login -->
+          <p><strong>wasirawa</strong></p>
+
+          <!-- Description -->
+          <p style="color: gray;">homeless</p>
+
+          <!-- Social Icons -->
+          <div class="social">
+            <img src="https://cdn.icon-icons.com/icons2/2389/PNG/512/twitter_logo_icon_144784.png">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/769px-Instagram-Icon.png">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/LINE_logo.svg/2048px-LINE_logo.svg.png">
+          </div>
+        </td>
+      </tr>
+    </table>
+
+    <!-- Contact Button -->
+    <a class="btn" href="https://www.instagram.com/it_me_choji/">Contact</a>
+
+  </div>
+</body>
+</html>
